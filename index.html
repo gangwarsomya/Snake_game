@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake_Game</title>
+    <link rel="icon" href="assests/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="preloader">
+        <img src="assests/Animation - 1719847178588.gif" alt="Preloader">
+    </div>
+    
+    <div class="site-content">
+        <div class="wrapper">
+            <div id="grids">
+    
+            </div>
+    </div>
+            
+    </div>
+   <!-- preloader js -->
+     <script>
+        window.onload = function() {
+            const preloader = document.querySelector('.preloader');
+            setTimeout(function() {
+                preloader.style.display = 'none';
+                document.querySelector('.site-content').style.display = 'block'; 
+            }, 5000);
+        };
+    </script>
+    <script src="index.js"></script>
+
+</body>
+</html>
