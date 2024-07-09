@@ -44,6 +44,9 @@
   .head{
     background-color: rgb(90, 246, 98);
   }
+  .snake{
+    background-color: rosybrown;
+  }
   .food{
     background-color: chocolate;
   }
